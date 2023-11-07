@@ -139,7 +139,7 @@ function vraag11() {
 }
 
 function vraag12() {
-    switch (stelVraag("het regent buiten wat ga je doen? \n A= Show Maya the pictures.     B= Close the book and go home.\n")) {
+    switch (stelVraag("As you arrive at the home of Maya you find a book at her doorstep. She picks it up and hands it to you. It seems to be placed there when you two were gone. As you open the book you find out that there are about 20 pictures of you. And some of them even got Maya in them aswell. You look at Maya who looks worried at you. \n A= Show Maya the pictures.     B= Close the book and go home.\n")) {
         case 'a':
             vraag19();
             break;
